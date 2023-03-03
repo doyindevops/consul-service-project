@@ -1,0 +1,5 @@
+instance_type      =   "t2.micro"
+region             =   "eu-west-3"
+ami                =   "ami-06b6c7fea532f597e"
+key_name           =   "consul-keys"
+ingress_cidr_block =   "172.31.0.0/16"
