@@ -14,12 +14,7 @@
     apt: 
       name: nginx 
       state: latest
-  
-  - name: Copy Nginx Index HTML 
-    template:
-      src: index.html.j2
-      dest: /var/www/html/index.html 
-  
+
   - name: Start and enable a service
     service:
       name: nginx
